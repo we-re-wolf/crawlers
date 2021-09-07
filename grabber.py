@@ -2,7 +2,7 @@ import requests
 import re
 from urllib.parse import urljoin
 
-target_url = 'http://nmap.org/'
+target_url = input("Enter your target url with http or https: ")
 target_links = []
 
 def grabber_links(url):
